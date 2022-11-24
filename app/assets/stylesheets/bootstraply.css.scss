@@ -1,0 +1,22 @@
+@import "bootstrap";
+
+.striker {
+  text-decoration: line-through;
+}
+
+.close {
+  float:right;
+}
+
+a:link {
+  text-decoration: none;
+  color:#000000;
+}
+
+a:hover {
+  color:#2F4F4F;
+}
+
+.btn-primary{
+  color:white !important;
+}

@@ -1,0 +1,14 @@
+
+<h1>Edit to-do item</h1>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <%= render "form", list: @list %>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <% link_to "Show this list", @list %>
+  <%= link_to "Back", lists_path %>
+</div>

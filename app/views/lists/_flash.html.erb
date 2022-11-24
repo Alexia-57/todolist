@@ -1,0 +1,16 @@
+<br/>
+<%flash.each do |name, msg| %>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <a href="http://127.0.0.1:3000/lists" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= content_tag(:div, msg) %>
+  </div>
+<% end %>
+
+<!--
+<%flash.each do |name, msg| %>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <%= content_tag(:div, msg) %>
+  </div>
+<% end %>
+-->
